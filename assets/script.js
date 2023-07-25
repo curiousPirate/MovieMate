@@ -415,7 +415,7 @@ input.addEventListener("keydown", function (event) {
 });
 
 // Initialize an empty array for favorites
-let favorites = [];
+let favorites = []; //USE Object.entries or Object.values to extract the data
 
 // Function to toggle favorite status
 function toggleFavorite(movieString) {
